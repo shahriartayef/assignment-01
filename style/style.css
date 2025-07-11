@@ -8,3 +8,35 @@ body{
     margin: 0;
     min-height: 100vh;
 }
+
+/* navbar sectiom  */
+.navbar-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    margin: 0 auto;
+    width: 80%;
+    font-family: "Inter", sans-serif;
+}
+.navbar h1{
+    color: #4E47FF;
+    font-size: 34px;
+}
+.btn{
+    background-color: #4E47FF;
+    border: 1px solid #4E47FF;
+    color: white;
+    width: 132px;
+    height: 48px;
+    gap:16px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: yellow;
+    border: 1px solid yellow;
+}
