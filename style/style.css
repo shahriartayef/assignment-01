@@ -41,6 +41,50 @@ body{
     border: 1px solid yellow;
 }
 
+/* banner section  */
+.banner{
+    width: 100%;
+    height: 698px;
+    background-image: url('../Assets/Hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.banner-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 158px 267.5px 200px;
+}
+.banner-content h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+}
+.text{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.btn-1{
+    margin: 50px 300px;
+    width: 174px;
+    height:48px;
+    background-color: #4E47FF;
+    border: 1px solid #4E47FF;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-1:hover{
+    background-color: yellow;
+    border: 1px solid yellow;
+}
+
 /* action section  */
 .action{
     display: flex;
@@ -208,5 +252,66 @@ body{
 .btn-3:hover{
     background-color: yellow;
     border: 1px solid yellow;
+}
+
+/* form section  */
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.contact-left h1 {
+  font-size: 97px;
+  font-weight: bold;
+  color: #000;
+  font-family: "Inter", sans-serif;
+}
+
+.contact-right form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.contact-right label {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.contact-right input,
+.contact-right textarea {
+  padding: 15px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 16px;
+  resize: none;
+  outline: none;
+}
+
+.contact-right textarea {
+  height: 120px;
+}
+
+.contact-right button {
+  margin-top: 25px;
+  padding: 15px;
+  background-color: #4e47ff;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.contact-right button:hover {
+  background-color: yellow;
+  border: 1px solid yellow;
 }
 
